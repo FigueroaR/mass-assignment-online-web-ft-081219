@@ -5,5 +5,6 @@ class Person
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
   
-  def initialized
+  def initialized( :name, :hair_color, :handed, :height, :weight, :birthday)
+      
 end

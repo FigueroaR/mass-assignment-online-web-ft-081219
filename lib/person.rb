@@ -1,5 +1,5 @@
 class Person
-  attr_accessor :name, :hair_color, :handed, :height, :weight, :birthday, :complexion, :t_shirt_size, :wrist_size, :glove_size
+  attr_accessor :name, :hair_color, :handed, :height, :weight, :birthday, :complexion, :t_shirt_size, :wrist_size, :glove_size, :pant_length
  
   def initialize(attributes)
     attributes.each {|key, value| self.send(("#{key}="), value)}

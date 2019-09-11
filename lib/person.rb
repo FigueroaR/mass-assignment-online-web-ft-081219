@@ -1,3 +1,5 @@
 class Person
-  #your code here
+  attr_accessor :person 
+  
+  
 end

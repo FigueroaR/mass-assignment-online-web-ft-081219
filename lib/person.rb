@@ -6,5 +6,10 @@ class Person
   end
   
   def initialized( :name, :hair_color, :handed, :height, :weight, :birthday)
-      
+      @name  = name 
+      @hair_color = hair_color
+      @height = height
+      @handed = handed
+      @weight = weight
+      @birthday = birthday
 end

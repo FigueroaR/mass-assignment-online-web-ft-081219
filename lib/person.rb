@@ -12,4 +12,5 @@ class Person
       @handed = handed
       @weight = weight
       @birthday = birthday
+    end 
 end

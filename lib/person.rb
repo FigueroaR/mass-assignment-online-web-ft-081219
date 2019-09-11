@@ -1,8 +1,7 @@
 class Person
-  attr_accessor :name
-  
-  def initialize(name)
-    @name = name 
-  end 
-  
+  attr_accessor :name, :user_name, :age, :location, :bio
+ 
+  def initialize(attributes)
+    attributes.each {|key, value| self.send(("#{key}="), value)}
+  end
 end
